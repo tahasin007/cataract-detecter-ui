@@ -1,3 +1,7 @@
+* {
+    caret-color: rgba(0, 0, 0, 0);
+}
+
 body {
     background-color: #fff;
     margin: 0;
@@ -76,7 +80,7 @@ input[type="file"] {
     cursor: pointer;
 }
 
-.inst-cataract{
+/* .inst-cataract{
     border-radius: 10px;
     height: 30%;
     margin: auto 0;
@@ -89,7 +93,7 @@ li.inst{
 
 li.inst::before{
     content: "\00BB";
-}
+} */
 
 #btn-upload{
     display: none;
@@ -106,4 +110,20 @@ img.eye-preview {
     max-height: auto;
     margin: 0 auto;
     padding: 3px;
+    border: none;
+    outline: 1px solid transparent;
 }
+
+#webcam{
+    display: none;
+}
+
+/* .default-video{
+    width : 350px;
+    height : 300px;
+} */
+
+/* #without-webcam{
+    display: none;
+} */
+
